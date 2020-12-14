@@ -1,0 +1,278 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1,h2,h3{
+    font-family:"Source Serif Pro", "Noto Serif",;
+    line-height: 54px;
+    letter-spacing:0;
+    word-spacing:0;
+    font-size:53px;
+    font-weight:600;
+    text-decoration:0; 
+    color:rgb(33, 36, 44);
+}
+h2,h1,h3{
+    font-family: 'Source Serif Pro', 'Noto Serif', serif !important;
+ }
+p{
+    font-family:Lato, "Noto Sans", sans-serif;
+     line-height: 30px;
+     letter-spacing:-0.1px;
+     word-spacing:0;
+     font-size:18px;
+     font-weight:400;
+     text-decoration:0; 
+     color:rgb(33, 36, 44);
+}
+           /*-------- header--------- */
+
+header{
+    box-sizing: border-box !important;
+    height: 62px !important;
+    left: 0px !important;
+    position: relative !important;
+    right: 0px !important;
+    border-top: 1px solid #D6D8DA !important;
+    border-bottom: 1px solid #D6D8DA !important;
+    font-family: Lato, "Noto Sans", Helvetica, Corbel, sans-serif, Helvetica, Corbel, sans-serif;
+   /*  background-color: rgb(250,250,250); */
+    color: #1865f2;
+}
+.column {
+    float: left;
+    width: 24.33%;
+    padding: 10px;
+    background-color:rgb(250,250,250);
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.headerdropdown{
+ border:none;
+ outline:none;
+ margin-left: 80px;
+ margin-top: 14px;
+}
+.headersearch{
+    width: 187px;
+    margin-left: 179px;
+    margin-top: -40px;
+}
+._signupfont{
+    font-size: 15px;
+    color: #1865f2;
+}
+.ka-nav{
+    margin-left: 7.1em;
+    margin-top: -6px;
+    word-spacing: 10px;
+}
+   /*-------- header--------- */
+
+   /*-------- section1--------- */
+   .ka-headrow{
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    clear: both
+}
+.ka-sec1h1{
+    margin-top: 47px;
+    font-size: 100%;
+    font-size: 53px;
+}
+   /*-------- section1--------- */
+
+   /*-------- section2--------- */
+.fontsection2{
+    font-size: 44px !important;
+    line-height: 48px !important;
+}
+.secondsectioncontainer{
+    margin-top: 150px;
+}
+.cardborder{
+    border: none;
+}
+.cardtext{
+    text-align: center;
+}
+._eib2kdk {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    color: #000000 !important;
+    display: block !important;
+    font-family: 'Source Serif Pro', 'Noto Serif', serif !important;
+    font-size: 23px !important;
+    font-weight: 400 !important;
+    line-height: 30px !important;
+    letter-spacing: -0.1px !important;
+    margin: 0 0 20px 0 !important;
+}
+._1jhgniwy {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    color: #21242c !important;
+    display: block !important;
+    font-family: Lato, 'Noto Sans', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+    letter-spacing: -0.1px !important;
+}
+
+   /*-------- section2--------- */
+
+   /*-------- section3--------- */
+.children{
+  width: 41rem;
+}
+.ka-subheading{
+    -moz-osx-font-smoothing: grayscale !important;
+    display: block !important;
+    font-family: Lato, 'Noto Sans', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    letter-spacing: 0.1em !important;
+    color: rgba(33, 36, 44, 0.64) !important;
+    margin: 0 0 37px 0 !important;
+  }
+  .ka-descreption{
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    display: block !important;
+    font-family: Lato, 'Noto Sans', sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    line-height: 17px !important;
+    letter-spacing: 0.08em !important;
+    color: rgba(33, 36, 44, 0.64) !important;
+    margin: 14px 0 0 0 !important;
+}
+
+   /*-------- section3--------- */
+
+    /*-------- section4--------- */
+#animated{
+    width: 43rem;
+}
+     /*-------- section4--------- */
+
+     /*-------- section5--------- */
+.userquote{
+     font-size: 2rem;
+     text-align: center;
+     margin-top: 123px;
+}
+#username{
+    margin-top: 53px;
+    margin-left: 47rem;
+}
+     /*-------- section5--------- */
+
+     /*-------- section6--------- */
+._children-171{
+    padding-top: 5em;
+    padding-left: 1em;
+}
+     /*-------- section6--------- */
+
+     /*-------- section7--------- */
+.join{
+    width: 100%;
+    margin: 0;
+    background-image: url('last_chance_pattern0.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}     
+
+     /*-------- section7--------- */
+
+     /*-------- section8--------- */
+.ka-partner_logo{
+    padding-left: 30px;
+    padding-right: 26px;
+    height: 35px;
+    width: 200px;
+    }
+    .ka-sec8sub{
+        line-height: 30px !important;
+        text-align: center !important;
+        font-family: 'Source Serif Pro', 'Noto Serif', serif !important;
+        font-weight: 600 !important;
+    }
+     /*-------- section8--------- */
+
+     /*-------- footer--------- */
+.ka-footer_line{
+margin-left: 6.5em;
+font-size: 12px;
+}
+     /*-------- footer--------- */
+._dropdown-18{
+    height: 46px;
+}
+
+.image{
+    height: 52px;
+    margin-left: 84px;
+    margin-top: 6px;
+
+}
+button{
+    margin-top: 3px;
+}
+.children2{
+    width: 41rem;
+
+}
+.children_button{
+    height: 4em;
+    width: 13em;
+}
+.children_button2{
+    height: 4em;
+    width: 13em;
+}
+.buttonset{
+    width: 20rem;
+    margin-left: 33rem;
+    margin-top: 10rem;
+}
+
+li{
+    color:white;
+}
+.footerfonts{
+    font-size: 12px;
+
+}
+.line-60{
+  margin-top: -3px;
+}
+
+.supporters_228{
+    text-align: center;
+    margin-top: 50px;
+}
+
+._search-button{
+ border: none;
+}
