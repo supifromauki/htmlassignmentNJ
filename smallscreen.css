@@ -31,6 +31,12 @@ p{
 .smdeviceh1{
   font-size: 30px;
 }
+.ka-button
+{
+  width:238px;
+  height:60px;
+  background-color:rgb(49, 35, 243);
+}
 /*-------- section1--------- */
 /*-------- section2--------- */
 
