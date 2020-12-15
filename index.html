@@ -3,15 +3,381 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Khan Academy | Free Online Courses, Lessons & Practice</title>
+    <link rel= "icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="smallscreen.css">
 </head>
 <body>
-    <h2>hello world</h2>
-<<<<<<< HEAD
-    <p> HEy there!!!!!!!!</p>
-=======
-    <p> HEy there</p>
-    <p> git commit</p>
->>>>>>> b74e600cfb8a026c0cd6ed565dc19aee7b898e6e
+ <header>
+     <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-sm-4">
+        <div class="dropdown">
+            <button style="font-size: 100%;" class="d-none d-md-block btn btn-secondary dropdown-toggle bg-white text-primary headerdropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <b>Courses</b>
+            </button>
+            <div style="width:80em;left:-62px;" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div  class="row">
+                <div style="height: 30em;"  class="column">
+                  <P>MATH-INDIA</P>
+                  <a href="#">class 1</a>
+                  <a href="#">class 2</a>
+                  <a href="#">class 3</a>
+                  <a href="#">class </a>
+                  <a href="#">class 5</a>
+                  <a href="#">class 6</a>
+                  <a href="#">class 7</a>
+                  <a href="#">class 8</a>
+                  <a href="#">class 9</a>
+                </div>
+                <div style="height: 30em;" class="column">
+                  <h6>Category 2</h6>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <div style="height: 30em;" class="column">
+                  <h6>Category 3</h6>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <div style="height: 30em;" class="column">
+                  <h6>Category 3</h6>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input style="background-color: #D6D8DA ;" class="d-none d-md-block form-control mr-sm-2 headersearch" type="search"  placeholder="Search" aria-label="Search" >
+      </div>
+      <div class="col-6 col-sm-4">
+          <img class="image img-fluid pl-3 d-block ka-mainlogosm" src="logo.png" alt="logo">
+      </div>
+      <div class="col-6 col-sm-4 ">
+        <nav class="navbar navbar-expand-lg navbar-light mt-2 ">
+          <i class="fa fa-search d-sm-none" style="margin-left: 40px;"></i>
+            <button style="border:none;" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-primary"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse ka-nav" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-info _signupfont" href="#"><strong> Donate</strong><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-info _signupfont" href="#"><strong> Login </strong><span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-info  _signupfont" href="#"><strong> Signup </strong><span class="sr-only">(current)</span></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+       </div>
+      </div>
+    </div>
+      </header>
+  <section>
+    <div class="container-fluid">
+     <div class="row ka-headrow">
+            <div class="col-12 col-md-6 text-center">
+              <img  class="img-fluid pl-4" src="Screenshot_20201203_073704.png" alt="logo2">
+            </div>
+            <div class="col-12 col-sm-6">
+              <h1 class="ka-sec1h1 smdeviceh1">For every student,<br>every classroom.<br><span style="border-bottom:2px solid #3CB371 ;"> Real results. </span></h1><br>
+              <p>We’re a nonprofit with the mission to provide a free, world<br>class education<br> for anyone, anywhere.</p>
+              <p class="d-lg-none ">Learners Teachers and<br>parents:</p>
+              
+              <button type="button" class="btn btn-primary d-none d-md-none d-lg-inline-block"><b>Learners</b></button>
+              <button type="button" class="btn btn-primary d-none d-md-none d-lg-inline-block"><b>Teachers</b></button>
+              <button type="button" class="btn btn-primary d-none d-md-none d-lg-inline-block"><b>Parents</b></button>
+              <button onclick="scrollto7()" type="button" class="btn btn-primary ka-button d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                <b>Start here</b></button>
+            </div>
+           </div>
+    </div>
+  </section>
+  
+  <br>
+<section class="section bg-light text-center ">
+  <br>
+  <h3 class="smdeviceh2 fontsection2" style="text-align: center;"> Why Khan Academy works </h3>
+  <div class="container text-center secondsectioncontainer">
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="card cardlayout bg-light cardborder">
+          <img style="height: 150px;width:250px;" class="card-img-top img-fluid mx-auto" src="card1.png" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="_eib2kdk " style="text-align: center;">Personalized learning</h3>
+            <p class="card-text _1jhgniwy">Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="card cardlayout bg-light cardborder">
+          <img style="height: 150px;width:250px;" class="card-img-top img-fluid mx-auto" src="card2.png" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="_eib2kdk " style="text-align:center;">Trusted content</h3>
+            <p class="card-text _1jhgniwy">Created by experts, Khan Academy’s library of trusted, standards-aligned practice and lessons covers math K-12 through early college, grammar, science  history, SAT®, and more. It’s all free for learners and teachers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="card cardlayout bg-light cardborder">
+          <img style="height: 150px;width:250px;" class="card-img-top img-fluid mx-auto" src="card3.png" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="_eib2kdk " style="text-align: center;">Tools to empower teachers</h3>
+            <p class="card-text _1jhgniwy">With Khan Academy, teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <br>
+    <br>
+</section>
+<section>
+    <div class="container">
+    <div class="row mt-3">
+      <div class="col-12 col-lg-6">
+        <img class="children img-fluid text-center" src="children.png" alt="children picture">
+      </div>
+      <div class="col-12 col-lg-6 ka-border">
+        <div style=" margin-left: 1rem;">
+      <quote class="ka-subheading ">Teacher</quote>
+      <br>
+        <h2 class="fontsection2 smdeviceh1 ml-auto"> “I’m finally able to truly<br> <span style="background-color:rgb(32,178,170);"> differentiate </span> my <br> classroom. This has <br> been priceless for my <br> students’ engagement.”</h2>
+        <p class="ka-descreption">UDAYA LAKSHMI PALAPALA / Middle school Coordinator / Hyderabad,<br> Telangana</p>
+        <p >We empower teachers to support their entire classroom. <br> 90% of US teachers who have used Khan Academy have <br> found us effective.</p>
+        <sub class="ka-descreption ">SOURCE: 2018 ConStat U.S. Online Education Customer Survey</sub><br>
+        <button type="button" class="btn btn-primary mt-4 smdevicebutton children_button">Teachers, Starts Here</button>
+      </div>
+      </div>
+    </div>
+</div>
+</section>
+
+<section class="mt-3">
+  <div class="container mt-4">
+    <div class="row mt-5">
+      <div class="col-12 col-lg-6 pt-4 ka-border">
+      <quote class="text-secondary ka-subheading">LEARNERS AND STUDENTS</quote>
+      <br>
+      <br>
+        <h2 class="fontsection2 smdeviceh1"> You can learn <br> anything.</h2><br>
+        <p>Build a deep, solid understanding in math, science,<br> grammar, history, SAT®, and more.</p>
+        <button type="button" class="btn btn-primary mt-4 smdevicebutton children_button">Learners, Starts Here</button>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img id="animated" class="img-fluid" src="animation.png" alt="animated picture">
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section style="height:45rem" class="bg-light text center">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 bg-light">
+      <blockquote  class="userquote smquote">“When I was a child, I used to fear mathematics. But  now, I am in love with mathematics because of Khan Academy.”</blockquote>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 bg-light">
+     <p style="text-align: right;">ANJALI<br>Gurugram, Haryana</p>
+    </div>
+    <div class="col-4 bg-light text-center" >
+    <img src="userimg.png" alt="user image"  style="width: 90px; height: 95px;">
+    </div>
+  </div>
+</div>
+</section>
+
+<section>
+    <div class="container">
+    <div class="row mt-4">
+      <div class="col-12 col-lg-6 mt-3">
+        <img class="children img-fluid" src="children2.png" alt="children picture2">
+      </div>
+      <div class="col-12 col-lg-6 _children-171 ka-border">
+      <quote class="text-secondary ka-subheading">TOGETHER WE CAN MAKE A DIFFERENCE</quote>
+      <br>
+      <br>
+        <h2 class="fontsection2 smdeviceh2"> Every child deserves the<br class="d-md-none"> chance to learn.</h2><br>
+        <p>Across the globe, 617 million children are missing basic <br> math and reading skills. We’re a nonprofit delivering the <br> education they need, and we need your help. You can <br> change the course of a child’s life.</p>
+        <button type="button" class="btn btn-primary mt-4 smdevicebutton children_button">Give them the chance</button>
+      </div>
+  </div>
+</div>
+</section>
+
+<section class="join mt-4 section7" style="height:50rem;">
+    <div class="container">
+  <div class="row mt-4">
+   <div class="col-12 text-center"  style="margin-top: 118px;">
+    <h2 class="fontsection2 smdeviceh2" style="text-align: center;"> Join Khan Academy</h2>
+    <button style="width: 250px;height: 60px;" type="button" class="btn btn-primary mt-4 p-3 btn-lg">Learners</button><br>
+    <button style="width: 250px;height: 60px;" type="button" class="btn btn-primary mt-4 p-3 btn-lg">Teachers</button><br>
+    <button style="width: 250px;height: 60px;" type="button" class="btn btn-primary mt-4 p-3 btn-lg">Parents</button><br>
+    <button style="width: 250px;height: 60px;" type="button" class="d-none d-md-none d-lg-inline-block btn btn-primary mt-4 p-3 btn-lg">Give today</button>
+    <button onclick=window.scrollTo(0,0) style="width: 250px;height: 60px; background-color: white;color:#1865f2;" type="button" class="d-lg-none btn btn-primary mt-4 p-3 btn-lg">Back</button>
+  </div>
+  </div>
+  </div>
+</section>
+
+<section class="bg-light">
+  <div class="container">
+  <h2 style="font-size: 36px;" class="ka-sec8sub smdevicesupport "> Key Supporters</h2>
+  <div class="row mt-5 text-center">
+    <div class="col-12 col-sm-3 p-3 ">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/bank-of-america-gray@2x.png" alt="partner1">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/college-board-gray@2x.png"alt="partner2">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/ann-and-john-doerr-gray@2x.png"alt="partner3">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/gates-foundation-gray@2x.png"alt="partner4">
+    </div>
+  </div>
+  <div class="row mt-2 text-center">
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/lemann-foundation-gray@2x.png"alt="partner5">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/carlos-rodriguez-pastor-gray@2x.png"alt="partner6">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/tata-trusts-gray@2x.png"alt="partner7">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/valhalla-gray@2x.png"alt="partner8">
+    </div>
+  </div>
+  <br>
+  <br>
+  <hr style="background-color: black;">
+  <h2 style="font-size: 36px;" class="smdevicesupport supporters_228"> Supporters of our COVID-19 response </h2>
+  <br>
+  <br>
+  <br>
+  <div class="row mb-5 text-center">
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/lemann-foundation-gray@2x.png" alt="partner9">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/att-gray@2x.png"  alt="partner10">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/google-gray@2x.png" alt="partner11">
+    </div>
+    <div class="col-12 col-sm-3 p-3">
+      <img class="ka-partner_logo" src="https://cdn.kastatic.org/images/supporters-logos/novartis-gray@2x.png" alt="partner12">
+    </div>
+  </div>
+  <hr>
+  <br>
+  <br>
+</div>
+</section>
+<footer style="background-color: #0a2a66;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-3">
+        <p style="font-size: 20px;" class="text-secondary mt-4">Our mission is to provide a free, world-class education to anyone, anywhere.<br>Khan Academy is a 501(c)(3) nonprofit organization. Donate or volunteer today!</P>
+      </div>
+      <div class="col-6 col-sm-3 mt-3 footerfonts">
+       <ul style="list-style-type: none;line-height:242%;">
+         <li>About</li>
+         <li>News</li>
+         <li>Impact</li>
+         <li>Our Team</li>
+         <li>Our Interns</li>
+         <li>Our Contents specialists</li>
+         <li>Our leadership</li>
+         <li>Our Supporters</li>
+         <li>Our Contributors</li>
+         <li>Our Finances</li>
+         <li>Careers</li>
+         <li>Internships</li>
+       </ul>
+      </div>
+      <div class="col-6 col-sm-3 mt-3 footerfonts">
+        <ul style="list-style-type: none;line-height:242%;">
+          <li class="text-secondary">Contact</li>
+          <li>Help Center</li>
+          <li>Support Community</li>
+          <li>Share your story</li>
+          <li>Press</li>
+          <br>
+          <br>
+          <li class="text-secondary">Download our apps</li>
+          <li>IOS App</li>
+          <li>Android app</li>
+        </ul>
+      </div>
+      <div class="col-6 col-sm-3 mt-3 footerfonts">
+        <ul style="list-style-type: none;line-height:242%;">
+          <li class="text-secondary">Courses</li>
+          <li>Math India</li>
+          <li>Math Foundations</li>
+          <li>Math</li>
+          <li>Khan kid app</li>
+          <li>Science - India</li>
+          <li>Science</li>
+          <li>Computing</li>
+          <li>Arts & humanities</li>
+          <li>Economics</li>
+          <li>Exam Preps</li>
+          <li>Khan for educators</li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row text-white">
+      <div class="col-12 col-sm-12 footerfonts">
+      <quote><span class="text-secondary">Language</span>  English</quote><br>
+      <quote><span class="text-secondary">Country</span><img src="us-flag.png" style="width: 15px;" > US <src="india-flag.png" style="width: 15px;">
+      India <img src="mexico-flag.png"alt="flag2" style="width: 15px;" >Mexico<img src="brazil-flag.png" alt="flag3" style="width: 15px;"> Brazil</quote>
+      </div>
+    </div>
+    <hr style="background-color: white;">
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-6 footerfonts">
+    <p class="text-secondary ka-footer_line ka-sm_footerline">© 2020 Khan Academy<span class="text-white ml-2"> Terms and use </span>  <span class="text-white ml-2"> privacy and policy </span></p>
+    </div>
+    <div class="col-12 col-sm-6 text-center">
+      <i style="font-size:24px" class="fa text-white">&#xf230;</i>
+      <i class="fa fa-instagram text-white" aria-hidden="true"></i>
+      <i class="fa fa-twitter text-white" aria-hidden="true"></i>
+    </div>
+  </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script>
+      
+      function scrollto7()
+      { //var sec7 =document.getElementById("section7") ;
+        //sec7.scrollIntoView(true);
+      window.scrollTo(10,5500) ; }
+      
+    </script>
 </body>
 </html>
